@@ -1,0 +1,141 @@
+﻿<Window x:Class="WpfCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calculator" Height="520" Width="360"
+        WindowStartupLocation="CenterScreen"
+        Background="whitesmoke">
+
+    <Grid Margin="10">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Display -->
+        <Label x:Name="ResultLabel"
+               Grid.Row="0"
+               Content="0"
+               FontSize="56"
+               HorizontalContentAlignment="Right"
+               VerticalContentAlignment="Center"
+               Background="lavender"
+               Foreground="black"
+               Padding="10" />
+
+        <!-- Buttons -->
+        <Grid Grid.Row="1" Margin="0,10,0,0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Function buttons -->
+            <Button x:Name="ACBtn" Content="AC"
+                    Grid.Row="0" Grid.Column="0"
+                    Background="powderblue" FontSize="20"/>
+
+            <Button x:Name="PlusMinusBtn" Content="+/-"
+                    Grid.Row="0" Grid.Column="1"
+                    Background="powderblue" FontSize="20"/>
+
+            <Button x:Name="PercentBtn" Content="%"
+                    Grid.Row="0" Grid.Column="2"
+                    Background="powderblue" FontSize="20"/>
+
+            <Button Content="/"
+                    Grid.Row="0" Grid.Column="3"
+                    Background="mediumorchid"
+                    Foreground="white"
+                    FontSize="24"
+                    Click="OperatorButton_Click"/>
+
+            <!-- Number row 7 8 9 -->
+            <Button Content="7" Grid.Row="1" Grid.Column="0"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button Content="8" Grid.Row="1" Grid.Column="1"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button Content="9" Grid.Row="1" Grid.Column="2"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button Content="*"
+                    Grid.Row="1" Grid.Column="3"
+                    Background="mediumorchid" Foreground="white"
+                    FontSize="24"
+                    Click="OperatorButton_Click"/>
+
+            <!-- Number row 4 5 6 -->
+            <Button Content="4" Grid.Row="2" Grid.Column="0"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button Content="5" Grid.Row="2" Grid.Column="1"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button Content="6" Grid.Row="2" Grid.Column="2"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button Content="-"
+                    Grid.Row="2" Grid.Column="3"
+                    Background="mediumorchid" Foreground="white"
+                    FontSize="24"
+                    Click="OperatorButton_Click"/>
+
+            <!-- Number row 1 2 3 -->
+            <Button Content="1" Grid.Row="3" Grid.Column="0"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button Content="2" Grid.Row="3" Grid.Column="1"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button Content="3" Grid.Row="3" Grid.Column="2"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button Content="+"
+                    Grid.Row="3" Grid.Column="3"
+                    Background="mediumorchid" Foreground="white"
+                    FontSize="24"
+                    Click="OperatorButton_Click"/>
+
+            <!-- Bottom row -->
+            <Button Content="0"
+                    Grid.Row="4" Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24" Click="NumberButton_Click"/>
+
+            <Button x:Name="DotBtn" Content="."
+                    Grid.Row="4" Grid.Column="2"
+                    Background="lightsteelblue" Foreground="black"
+                    FontSize="24"/>
+
+            <Button x:Name="EqualBtn" Content="="
+                    Grid.Row="4" Grid.Column="3"
+                    Background="mediumorchid"
+                    Foreground="white"
+                    FontSize="24"/>
+        </Grid>
+
+    </Grid>
+</Window>

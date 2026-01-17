@@ -1,0 +1,15 @@
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\bin\Debug\WpfCalculator.exe.config
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\bin\Debug\WpfCalculator.exe
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\bin\Debug\WpfCalculator.pdb
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\WpfCalculator.csproj.AssemblyReference.cache
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\App.g.cs
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\WpfCalculator_MarkupCompile.cache
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\MainWindow.baml
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\WpfCalculator.g.resources
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\WpfCalculator.Properties.Resources.resources
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\WpfCalculator.csproj.GenerateResource.cache
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\WpfCalculator.csproj.CoreCompileInputs.cache
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\WpfCalculator.exe
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\WpfCalculator.pdb
+C:\Users\arush\source\repos\WpfCalculator\WpfCalculator\obj\Debug\WpfCalculator.exe.config
